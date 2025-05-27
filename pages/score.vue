@@ -1,6 +1,6 @@
 <template>
   <h1>Board Game Keeper</h1>
-  <DxTextBox v-model:value="pn" placeholder="enter player name" />
+  <!-- <DxTextBox v-model:value="pn" placeholder="enter player name" /> -->
   <!-- <DxButton text="add player" @click="addPlayer" /> -->
 
   <table class="table-auto w-full border border-gray-400 border-collapse">
@@ -44,9 +44,9 @@
   </table>
 </template>
 <script setup lang="ts">
-import "devextreme-vue/button";
+// import "devextreme-vue/button";
 // import DxButton from 'devextreme-vue/button';
-import DxTextBox from "devextreme-vue/text-box";
+// import DxTextBox from "devextreme-vue/text-box";
 import { ref, onMounted, watch } from "vue";
 
 // refs
